@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/signup.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+
+        <nav>
+            <div class="nav-section">
+                <div class="row">
+                    <!--  <img src="resources/img/whitelogowithdotcom.png " class="brand">-->
+                     <a href="home.html">
+                            <img src="images/logo8.jpg" class="brand"> 
+                            <span class="brand-logo">MyDoctor</span>    
+                        </a>
+                    <ul>
+                        <!--  <li><a href="#">Sign Up</a> </li>
+                        <li><a href="login.html">Login</a> </li>-->
+                        
+                        <li><a href="contact.html">Contact Us</a> </li>
+                    </ul>        
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    
+    <section class="sign-section">
+        <div class="row">
+            <div class="sign-header">
+                <p>Sign Up as a Docotr</p>
+            </div>    
+            <div class="container">
+                <form class="contact-form" method="POST" action="DoctorServlet">
+                
+                	<div class="row block">
+                        <div class="col span-1-of-3">
+                            <label for="name">Your Age</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="age" id="name" placeholder="age " required>
+                        </div>
+                    </div>
+                    
+                    <div class="row block">
+                        <div class="col span-1-of-3">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="your name " required>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="row block">
+                        <div class="col span-1-of-3">
+                            <label for="name">Your SSN</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="ssn" id="name" placeholder="your ssn " required>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="row block">
+                        <div class="col span-1-of-3">
+                            <label for="name">Your specialization</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="specialization" id="name" placeholder="your Specialization " required>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Street</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="street" id="email" placeholder="your street" required>
+                        </div>
+                    </div>
+                    
+                   
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="password">City</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="city" id="password" placeholder="city" required>
+                        </div>    
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            &nbsp;
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="JOIN NOW">
+                        </div>    
+                    </div>
+                    <hr>
+                </form>
+                <div class="row hint">
+                    Already Registered in Vezeeta ? <a href="login.html">Login</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-5">
+                <ul>
+                    <li><img src="resources/img/whitelogowithdotcom.png"></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    
+                </ul>
+            </div>
+                <div class="col span-1-of-5">
+                    <ul>
+                        <li><h2>Searched By</h2></li>
+                        <li><a href="#">Speciality</a></li>
+                        
+                        <li><a href="#">hospital</a></li>
+                          
+                    </ul>
+                </div>
+            
+            <div class="col span-1-of-5">
+                <ul>
+                    <li><h2>Need help ?</h2></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                   
+                    <li><a href="#">Privacy Policy</a></li>
+                    
+                </ul>
+            </div>
+            <div class="col span-1-of-5 stories">
+                
+                <ul class="social-nav">
+                    <li><a href="www.facebook.com"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="ion-social-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/"><i class="ion-social-twitter"></i></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+</html>

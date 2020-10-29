@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/login.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+    <title>Login</title>
+</head>
+<body>
+    <header>
+
+        <nav>
+            <div class="nav-section">
+                <div class="row">
+                    <!--  <img src="resources/img/whitelogowithdotcom.png " class="brand">-->
+                     <a href="home.html">
+                            <img src="images/logo8.jpg" class="brand"> 
+                            <span class="brand-logo">Mydoctor</span>    
+                        </a>
+                    <ul>
+                        <li><a href="signUp.html">Sign Up</a> </li>
+                        <li><a href="login.html">Login</a> </li>
+                        
+                        <li><a href="contact.html">Contact Us</a> </li>
+                    </ul>        
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <section class="login-section">
+        <div class="row">
+            <div class="login-header">
+                <p>Login</p>
+            </div>    
+            <div class="container-login">
+                <form class="contact-form" method="POST" action="LoginServlet">
+                    <div class="block-form">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" required>     
+                    </div>
+                    <div class="block-form">
+                        <label for="password">password</label>
+                        <input type="password" name="password" id="password" required>     
+                    </div>
+                    <div class="block-form">
+                        <input type="submit" value="login">
+                         
+                        
+                    </div>
+                    <hr>
+                </form>
+                
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-5">
+                <ul>
+							<a href="home.html">
+                            <img src="images/logo8.jpg" class="brand"> 
+                            <span class="brand-logo"></span> <br>   
+                        </a><br>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                </ul>
+            </div>
+                <!-- <div class="col span-1-of-5">
+                    <ul>
+                        <li><h2>Searched By</h2></li>
+                        <li><a href="#">Speciality</a></li>
+                        <li><a href="#">Area</a></li>
+                        <!--  <li><a href="#">Insurance</a></li>
+                        <li><a href="#">hospital</a></li>
+                        <li><a href="#">center</a></li>    
+                    </ul>
+                </div> -->
+            <div class="col span-1-of-5">
+                <ul>
+                    <li><h2>Are You A Doctor ?</h2></li>
+                    <li><a href="#">join Vezeeta Doctor</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-5">
+                <ul>
+                    <li><h2>Need help ?</h2></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <!--  <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Doctor Privacy Policy</a></li>-->
+                </ul>
+            </div>
+             <div class="col span-1-of-5 stories">
+                <!--  <img src="resources/img/google-play-badge.png">
+                <img src="resources/img/download-app.svg">-->
+                <ul class="social-nav">
+                     <li><a href="www.facebook.com"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="ion-social-instagram"></i></a></li>
+                    <li><a href="https://twitter.com/"><i class="ion-social-twitter"></i></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+</html>

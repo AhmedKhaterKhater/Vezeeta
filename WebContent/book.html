@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/book.css">
+    
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
+        <title>Book</title>
+    </head>
+    <body>
+        <header>
+
+            <nav>
+                <div class="nav-section">
+                    <div class="row">
+                         
+                          <a href="home.html">
+                            <img src="images/logo8.jpg" class="brand"> 
+                            <span class="brand-logo">Mydoctor</span>    
+                        </a>
+                         
+                        <ul>
+                            <li><a href="signUp.html">Sign Up</a> </li>
+                            <li><a href="login.html">Login</a> </li>
+                            
+                            <li><a href="contact.html">Contact Us</a> </li>
+                        </ul>        
+                    </div>
+                </div>
+            </nav>
+    
+        </header>
+        <section class="book-section"> 
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <div class="doctor-profile">
+                        <div class="row">
+                            <img src="resources/img/doctor.jpeg" alt="Doctor">
+                            <div class="caption">
+                               <p>Doctor </p><span>mohamed hamdy</span> 
+                                <p class="description">professor and consultant of Cardiology & cardiova ...</p>
+                            </div>
+                                
+                        </div>
+                    </div>
+                </div>
+            <div class="col span-1-of-2">
+                <div class="title-book">
+                    <p>Enter your Info</p>
+                </div>
+                    <div class="book-container">
+                        <form class="contact-form" action="PatientReservationServlet" method="POST">
+                            <div class="book-block">
+                                <i class="ion-ios-person"></i><input type="text" class=" info-block" name="name" placeholder=" Your Name" required>
+                            </div>
+                            <div class="book-block">
+                                <i class="ion-android-call"></i> <input type="text" class=" info-block" name="phone" placeholder=" Mobile Number" required>
+                            </div>
+                            <div class="book-block">
+                                <i class="ion-ios-email"></i> <input type="email" class=" info-block" name="email" placeholder=" Your Email" required>
+                            </div>
+                            
+                            <div class="book-block">
+                                <i class="ion-ios-email"></i> <input type="text" class=" info-block" name="appointment" placeholder=" Your appointment" required>
+                            </div>
+                            
+                                   
+                            <hr>
+                            <!--  <div class="book-block">
+                                <p><i class="ion-umbrella label__icon"></i>  Insurance</p>
+                               <i class="ion-umbrella"></i><select class="info-block">
+                                    <option value="" disabled selected>i don't have insurance with this doctor</option>
+                                </select>    
+                            </div>-->
+                            <div class="book-block clear__border">
+                                <input type="submit" value="Book" class="btn-book">
+                                <button class="btn-cancel">Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-5">
+                    <ul>
+                         
+                         
+                        
+                    </ul>
+                </div>
+                  
+                
+                
+    
+    
+            </div>
+    
+        </footer>
+
+
+    </body>
+</html>
+
+
+<!--
+
+-->

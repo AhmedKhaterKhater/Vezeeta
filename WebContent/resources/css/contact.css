@@ -1,0 +1,47 @@
+.contact-page {
+    background-color: #e2e6ea;
+    padding: 2px;
+}
+.container-el {
+    margin: 3rem 0;
+    border-radius: 10px;
+    font-size: .9rem;
+    width: 110%;
+    background-color: #fff;
+    padding-left: 2rem;
+}
+
+.comment-area {
+    border-radius: 10px;
+}
+.contact-header {
+    font-size: 24px;
+    color: rgb(0, 112, 205);
+    font-weight: 400;
+    margin: 10px 0px;
+
+}
+
+.small-text {
+    color: rgb(116, 116, 112);
+    font-size: 14px;
+    margin: 0px 0px 10px;
+
+}
+
+form {
+    display: block;
+    margin-top: 10px;
+}
+
+.border-hor {
+    border-left: thin solid rgb(224, 224, 224);;
+}
+
+.moved {
+    display: block;
+    margin-bottom: 5px;
+}
+.colored {
+    color: #0070cd;
+}

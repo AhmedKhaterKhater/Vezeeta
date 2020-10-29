@@ -1,0 +1,71 @@
+.detail-sec {
+    background-color: #e2e6ea;
+}
+
+.basic-info {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.doc-name {
+    color: rgb(133, 130, 130);
+    margin: 5px;
+}
+
+.basic-info3 {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 25px;
+}
+.booking-info {
+    padding: 5px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(59, 146, 223);
+    color: #fff;
+    font-size: .8rem;
+}
+.book-detail {
+    background-color: #fff;
+    padding: 5px;
+    color: rgb(112, 110, 110);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.centerd {
+    text-align: center;
+}
+.ex {
+    text-align: center;
+    color:rgb(59, 146, 223) ;
+    margin-bottom: 5px;
+}
+
+.border-dev {
+    border-bottom: thin solid #ccc;
+    padding: 0;
+    margin: 5px 0;
+}
+.special-icon {
+    display: block;
+    color:rgb(59, 146, 223) ;
+}
+.ex2 p {
+    font-size: .8rem;
+}
+
+.loc-icon {
+    color: rgb(59, 146, 223);
+    display: inline-block;
+    font-size: .8rem;
+    padding: 4px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.loc-item {
+    display: inline-block;
+    margin-top: 5px;
+}

@@ -1,0 +1,145 @@
+.book-section {
+    background-color: rgb(226, 226, 226);
+}
+
+.doctor-profile {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+
+}
+.doctor-profile img {
+    border-radius: 50%;
+    height: 120px;
+    width: 25%;
+    border: 1px solid #ccc;
+    transform: translateY(-40px);
+    margin-left: 15px;
+    display: inline-block;
+}
+.caption  {
+    /*position: absolute;
+    top: 20%;
+    left: 180px;
+    */
+    transform: translateY(-10px);
+    width: 50%;
+    margin:5px;
+    display:inline-block ;
+
+}
+.doctor-profile p {
+    display: inline-block;
+    font-size: 80%;
+    
+}
+.description {
+    font-size: small;
+}
+.doctor-profile .caption span {
+    font-size: 140%;
+    line-height: 5px;
+}
+
+.appointment {
+    margin-top: 20px;
+    background-color: rgba(233, 233, 233, 0.945);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title-book {
+    background-color: #0e7fdb;
+    text-align: center;
+    font-size: 90%;
+    font-weight: bolder;
+    padding: 4px;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.book-container {
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+}
+
+.book-block {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px ;
+    border-bottom: 2px solid #ccc;
+}
+
+.book-block span {
+    font-size: 80%;
+}
+.book-block input[type=text],
+.book-block input[type=email],
+.book-block select {
+    border: none;
+    padding: 3px;
+    margin: 5px 3px;
+    font-size: 80%;
+    /*border-bottom: 2px solid #ccc;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+.book-container hr {
+    width: inherit;
+    height: 0.5px;
+    color: #000;
+    margin-top: 100px;
+}
+
+.clear__border {
+    border: none;
+    margin-bottom: 15px;
+}
+
+.book-block p {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 0;
+    padding-left: 0;
+}
+.label__icon {
+    font-size: 130%;
+    color: #0e7fdb;
+}
+input[type=submit].btn-book {
+    width: 60%;
+    height: 37px;
+    transition: background-color 0.2s;}
+
+input[type=submit].btn-book:hover {
+    background-color: #b41313;
+}
+.btn-cancel {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+    padding: 5px;
+    margin-top: 7px;
+    height: 37px;
+    transition: background-color 0.2s;
+}
+.btn-cancel:hover {
+    background-color: rgb(184, 180, 180);
+    border: 1px solid #fff;
+}

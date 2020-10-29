@@ -1,0 +1,196 @@
+.doctor__header {
+    background-image: url(../img/cover-old__small.jpeg);
+    background-repeat: no-repeat;
+    height: 40vh;
+    background-position-x: center;
+    background-size: cover;
+  
+}
+.search-nav__doctors{
+    
+    background-color: #fff;
+    font-size: 0.7rem;
+    position: absolute;
+    left: 5%;
+    top:30%;
+    width: 70%;
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) .8fr;
+    grid-template-rows: 3.2rem;
+    text-align: center;
+    overflow: hidden;    
+    box-shadow: 0 0 #ccc;
+    /* border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px; */
+    border-radius: 15px;   
+}
+.search-nav__doctors ::placeholder {
+    color: #0e7fdb;
+    font-size: 0.9rem;
+} 
+.search-nav__doctors input[type=text] {
+    border: none;
+    color: #0e7fdb;
+    font-size: 0.7rem;
+}
+.el:first-child{
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+}
+
+.list-doctors{
+    background-color: #e2e6ea;
+}
+
+.title-filter {
+    background-color: #3B92DF;
+    text-align: left;
+    padding: 8px 12px;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.doctor-filter {
+    text-align: left;
+    display: block;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.svg-item {
+    display: inline-block;
+    float: right;
+    font-size: 120%;
+}
+.list-filter {
+    /* padding: 1rem; */
+}
+.list-filter__item {
+    padding: 1rem;
+    font-size: .8rem;
+    color: #0e7fdb;
+    font-weight: 500;
+    /* border-bottom: 1px solid #ccc; */
+}
+.list-filter__item-span {
+    font-size: .8rem;
+
+
+}
+.list-filter__item-span li {
+    margin-bottom: .5rem;
+    margin-left: 2rem;
+}
+.list-doctor__items {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 1rem;
+    padding: 2px;
+}
+.small-img{
+    border-radius: 55%;
+    height: 100%;
+    width: 80%;
+    border: 1px solid #ccc;
+    margin: 1rem;
+
+}
+.doctor-descript {
+    margin: 15px .8rem;
+}
+.doctor-descript span {
+    font-size: .7rem;
+    color: #0070cd;
+}
+.doctor-descript .doctor-name {
+    font-size: 1.3rem;
+    display: inline-block;
+    color: #0070cd;
+}
+.doctor-speclist {
+    font-size: .7rem;
+    color: #555;
+    padding: 1px;
+    margin-bottom: 7px;
+}
+.doctor-property {
+    margin-top: 8px;
+    font-size: .7rem;
+    padding: 2px 1px;
+    color: #555;
+}
+.doctor-property p {
+    display: inline-block;
+
+}
+.doctor-property .custom-icon {
+    color: #0070cd;
+    padding-right: 5px;
+}
+.omh {
+    margin-left: 25px;
+    color: #555;
+}
+.single-el{
+    margin-bottom: 2px;
+    padding: 3px;
+    display: block;
+}
+.doctor-rate {
+    color: rgb(255, 182, 36);
+}
+.doctor-time {
+    margin: 17px ;
+
+}
+.day-title {
+    font-size: .8rem;
+    color: #fff;
+    background-color: rgb(59, 146, 223);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 80%;
+    text-align: center;
+}
+.cel-time {
+    border: thin solid #ccc;    
+    width: 80%;
+    margin-right: 7%;
+    padding: 2px;
+    border-bottom: none;
+
+}
+
+.time-item {
+    color: rgb(0, 112, 205);
+    padding: 2px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+.time-item:hover {
+    color: #fff;
+    background-color: rgb(0, 112, 205);
+    border-radius: 4px;
+}
+.btn-book-time {
+    width: 80%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 1;
+    background: rgb(239, 15, 15);
+    border-radius: 0px 0px 4px 4px;
+    overflow: hidden;
+    border: none;
+
+}
+.border-line {
+    border-bottom: 1px solid #ccc;
+}
